@@ -1,0 +1,14 @@
+<svg class="logo-svg-dev assemble" viewBox="0 0 450 100" xmlns="http://www.w3.org/2000/svg" style="width: 280px; height: auto;">
+            <g font-family="'JetBrains Mono', monospace" font-size="52" font-weight="700">
+              <text class="char p1" x="10" y="65" fill="#4a6fa5">&gt;</text>
+              <text class="char p2" x="42" y="65" fill="#4a6fa5">_</text>
+              <text class="char l1" x="106" y="65" fill="#0B111A">l</text>
+              <text class="char l2" x="138" y="65" fill="#0B111A">e</text>
+              <text class="char l3" x="170" y="65" fill="#0B111A">t</text>
+              <text class="char l4" x="202" y="65" fill="#0B111A">s</text>
+              <text class="char sep" x="234" y="65" fill="#8a99ad">/</text>
+              <text class="char d1" x="266" y="65" fill="#2a7d4f">d</text>
+              <text class="char d2" x="298" y="65" fill="#2a7d4f">e</text>
+              <text class="char d3" x="330" y="65" fill="#2a7d4f">v</text>
+            </g>
+          </svg>

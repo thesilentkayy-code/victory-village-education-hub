@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victory Village Education Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({ startOnLoad: false, theme: 'forest' });
+        window.mermaid = mermaid;
+    </script>
+</head>
+<body>
+    <div id="initial-loader" class="initial-loader">
+        <div class="loader-content">
+            <img src="assets/vvlogo.png" alt="Victory Village" class="loader-logo">
+            <h1 class="loader-quote">"Empowering residents through education.<br>Your journey starts here."</h1>
+            <p class="loader-author">— Victory Village</p>
+        </div>
+    </div>
+    <div class="app-container">
+        <header class="mobile-header">
+            <h2>Victory Village Education</h2>
+            <button id="menu-toggle" class="menu-btn">☰</button>
+        </header>
+        <div class="sidebar-overlay" id="sidebar-overlay"></div>
+        <aside class="sidebar" id="sidebar">
+            <div class="logo-container">
+                <h2>Victory Village</h2>
+                <p>Education Hub</p>
+            </div>
+            <nav class="sidebar-nav">
+                <button class="nav-btn active" data-file="introduction.md">Introduction / Index</button>
+                <button class="nav-btn" data-file="bridging_requirements.md">Bridging (No Grade 9)</button>
+                <button class="nav-btn" data-file="adult_matric.md">Adult Matric Registration</button>
+                <button class="nav-btn" data-file="ged_pros_cons.md">The GED: Pros & Cons</button>
+            </nav>
+            <div class="sidebar-footer">
+                <button id="print-btn" class="action-btn" style="width:100%;">🖨️ Print to A4</button>
+                <p>&copy; 2026 Victory Village</p>
+            </div>
+        </aside>
+        <main class="content-area">
+            <div id="content" class="markdown-body">
+                <!-- Content loaded dynamically here -->
+                <div class="loader">Loading educational resources...</div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
